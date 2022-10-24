@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Api\MessagesController;
+use App\Http\Controllers\Api\ContactMessageController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,6 +20,6 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //});
 
-Route::apiResource('ContactMessages',MessagesController::class);
+Route::apiResource('ContactMessages',ContactMessageController::class);
 
 
